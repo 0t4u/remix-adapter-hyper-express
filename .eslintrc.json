@@ -1,0 +1,12 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "@augu",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "no-duplicate-imports": "off",
+        "@typescript-eslint/consistent-type-imports": "error"
+    }
+}

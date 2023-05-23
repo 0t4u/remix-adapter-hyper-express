@@ -1,0 +1,13 @@
+.github
+.idea
+.vscode
+.eslintignore
+.eslintrc.json
+.gitattributes
+.gitignore
+src/
+index.ts
+tsconfig.json
+tsup-config.json
+**.tgz
+**.md
