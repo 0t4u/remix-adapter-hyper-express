@@ -1,4 +1,4 @@
-import type { MiddlewareHandler, Request, UserRouteHandler } from "hyper-express";
+import type { Request, UserRouteHandler } from "hyper-express";
 import LiveDirectory from "live-directory";
 import type {
     ServerBuild,
@@ -15,7 +15,7 @@ import {
 
 export type GetLoadContextFunction = UserRouteHandler;
 
-export type RequestHandler = MiddlewareHandler;
+export type RequestHandler = UserRouteHandler;
 
 export function createRequestHandler({
     build,
